@@ -11,3 +11,79 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.full-h{
+
+  height: 100vh;
+}
+
+.center{
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+
+}
+a{
+  text-decoration: none !important;
+}
+.cancel{
+  position: absolute;
+  right: 10px;
+  top: 20px;
+
+}
+
+.background-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+}
+.sarı{
+  background-color: yellow;
+  color: white;
+}
+.kırmızı{
+  background-color: red;
+  color: white;
+}
+.mavi{background-color: blue;
+  color: white;}
+
+.yesil{
+  background-color: green;
+  color: white;
+}
+
+.relative{
+  position: relative;
+}
+.needHover:hover{
+  cursor: pointer;
+}
+.react-datepicker__month-container{
+  z-index: 300;
+}
+
+.date{
+  width: 50%;
+  height: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.column{
+  flex-direction: column;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.margin40{
+  margin:40px
+}
